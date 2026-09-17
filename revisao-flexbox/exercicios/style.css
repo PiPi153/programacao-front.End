@@ -1,0 +1,43 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 6px dashed gray;
+    background-color: black;
+
+}
+.logo{
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.menu{
+    list-style: none;
+    background-color: black;
+    color:white ;
+    padding: 30px;
+    margin: 5px;
+    font-size: 1rem;
+    justify-content: space-between;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color: #f0f0f0;
+    padding: 30px;
+    flex: 1  1  200px;
+    text-align: center;
+
+}

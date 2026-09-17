@@ -1,0 +1,17 @@
+.container{
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+    border: 8px dashed gray;
+   
+}
+.caixa{
+    background-color: brown;
+    color: white;
+    font-size: 3rem;
+    padding: 20px;
+    margin: 5px;
+    margin-top: 10px;
+}
