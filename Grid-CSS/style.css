@@ -1,0 +1,16 @@
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 150px 150px;
+    gap: 15px;
+    
+    
+}
+.foto{
+background-color: #f5a623;
+color: white;
+font-size: 2rem;
+padding: 30px;
+text-align: center;
+border: 3px solid black;
+}
